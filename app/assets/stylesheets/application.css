@@ -13,3 +13,23 @@
  *= require_tree .
  *= require_self
  */
+
+html {
+	background-color: rgb(33, 37, 43);
+	height: 100%;
+}
+body {
+	height: 100%;
+	margin: 0;
+}
+
+.nav-bar {
+	height: 100%;
+	width: 200px;
+	background-color: rgba(115, 119, 123, 0.5);
+	float: left;
+}
+
+.logo img {
+	width: 217px;
+}
