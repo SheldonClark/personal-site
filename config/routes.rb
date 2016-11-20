@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
 
 
-	root 'homepage#index'
+	root 'posts#index'
 
 	resources :homepages, only: %i(index)
+	resources :posts
 end
